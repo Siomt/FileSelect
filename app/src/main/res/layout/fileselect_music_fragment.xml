@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/content_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_select_num"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="发送"
+            android:textColor="@color/white"
+            android:background="@color/blue7"
+            android:gravity="center"
+            android:textSize="@dimen/_18sp"
+            android:layout_alignParentBottom="true"/>
+
+        <ListView
+            android:id="@+id/lv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/tv_select_num">
+
+        </ListView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/default_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_empty"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="没有最近文件记录"
+            android:textSize="@dimen/_16sp"
+            android:layout_marginTop="@dimen/_10dp"/>
+    </LinearLayout>
+
+</RelativeLayout>

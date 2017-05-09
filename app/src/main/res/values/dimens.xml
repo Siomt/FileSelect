@@ -1,0 +1,42 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!--<dimen name="activity_horizontal_margin">16dp</dimen>-->
+    <!--<dimen name="activity_vertical_margin">16dp</dimen>-->
+    <dimen name="md_dialog_frame_margin">24dp</dimen>
+
+    <!-- baseTextSize -->
+    <dimen name="smallTipsTextSize">14sp</dimen>
+    <dimen name="bodyTextSize">14sp</dimen>
+    <dimen name="btnTextSize">14sp</dimen>
+    <dimen name="smallTitleTextSize">16sp</dimen>
+    <dimen name="middleTitleTextSize">18sp</dimen>
+    <dimen name="appbarTextSize">20sp</dimen>
+    <dimen name="bigTitleTextSize">24sp</dimen>
+    <dimen name="item_height">80dp</dimen>
+    <!-- 快速所有条字体大小 -->
+    <dimen name="sidebar_text_size">3sp</dimen>
+
+    <dimen name="labels_text_size">14sp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="_0dp">0dp</dimen>
+    <dimen name="_0.5dp">0.5dp</dimen>
+    <dimen name="_1dp">1dp</dimen>
+    <dimen name="_2dp">2dp</dimen>
+    <dimen name="_5dp">5dp</dimen>
+    <dimen name="_10dp">10dp</dimen>
+    <dimen name="_20dp">20dp</dimen>
+    <dimen name="_30dp">30dp</dimen>
+    <dimen name="_40dp">40dp</dimen>
+    <dimen name="_45dp">45dp</dimen>
+    <dimen name="_50dp">50dp</dimen>
+    <dimen name="_54dp">54dp</dimen>
+    <dimen name="_100dp">100dp</dimen>
+    <dimen name="_150dp">150dp</dimen>
+    <dimen name="_270dp">270dp</dimen>
+
+    <dimen name="_18sp">18sp</dimen>
+    <dimen name="_16sp">16sp</dimen>
+    <dimen name="_14sp">14sp</dimen>
+    <dimen name="_12sp">12sp</dimen>
+</resources>

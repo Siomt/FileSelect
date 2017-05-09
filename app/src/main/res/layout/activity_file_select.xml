@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_bg">
+
+    <RelativeLayout
+        android:id="@+id/title_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/tabcolor">
+
+        <TextView
+            android:id="@+id/btn_back"
+            android:layout_width="50dip"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:background="@drawable/btn_actionbar"
+            android:text="取消"
+            android:textColor="#fff"
+            android:textSize="15sp"/>
+
+        <RadioGroup
+            android:id="@+id/top_click"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/click_position"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/file_select_title_bg"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="最近"
+                android:textColor="@color/file_select_text"
+                android:textSize="15sp" />
+
+            <RadioButton
+                android:id="@+id/click_company"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/file_select_title_bg"
+                android:button="@null"
+                android:gravity="center"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="本机"
+                android:textColor="@color/file_select_text"
+                android:textSize="15sp" />
+
+        </RadioGroup>
+
+    </RelativeLayout>
+
+    <com.bjytsw.zhengtong.view.NoScrollViewPager
+        android:id="@+id/id_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp" >
+
+    </com.bjytsw.zhengtong.view.NoScrollViewPager>
+
+</RelativeLayout>
